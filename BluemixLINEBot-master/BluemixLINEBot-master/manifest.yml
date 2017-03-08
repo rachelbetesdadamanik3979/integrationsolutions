@@ -1,0 +1,8 @@
+applications:
+- path: build/libs/bluemixlinebot.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: komsat
+  host: komsat
+  disk_quota: 1024M
